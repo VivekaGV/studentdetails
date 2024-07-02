@@ -2,10 +2,10 @@ class student:
     def __init__(self,name,reg,m1,m2,m3):
         self.name=name
         self.reg=reg
-        self.m1=m1
+        self.m1 = m1
         self.m2 = m2
-        self.m3= m3
-        self.av=""
+        self.m3 = m3
+        
     def avg(self):
         a=int((m1+m2+m3)/3)
         avgm[name]=a
