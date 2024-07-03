@@ -8,7 +8,7 @@ class student:
         
     def avg(self):
         a=int((m1+m2+m3)/3)
-        avgm[name]=a
+        avgm[reg]=a
     def rank(self):
         i = 0
         rank = 1
@@ -17,7 +17,7 @@ class student:
             print()
             keymax = max(zip(avgm.values(),avgm.keys()))
             print("Rank=", rank,end=" ")
-            print("(Average marks and name)=", keymax)
+            print("(Average marks and USN)=", keymax)
             a = keymax[1]
             del avgm[a]
             rank += 1
